@@ -29,6 +29,9 @@ nav,
 .header ul {
     width: 40%;
 }
+.header h1 {
+    margin: 0;
+}
 h1 {
     font-size: 1.7rem;
 }
@@ -159,33 +162,15 @@ p {
 }
  /* contact section */
 #contact {
-    padding: 30px 40px;
+    padding: 40px;
 }
-label {
-    display: block;
-    margin: 15px 0;
-    font-size: 1.3rem;
+#contact i {
+    margin-right: 10px;
 }
- textarea {
-     width: 450px;
-     height: 250px;
-     padding: 1rem;
-     font-size: 1.2rem;
-     display: block;
-     resize: none;
- }
-input {
-     padding: 1rem;
-    width: 260px;
-    font-size: 1.2rem;
+#contact li {
+    margin-bottom: 10px;
 }
-input[type='submit']{
-    color: var(--colora);
-    width: 150px;
-}
-::placeholder {
-    font-size: 1.2rem;
-}
+
    /* footer section */
 .footer {
     text-align: center;
@@ -238,12 +223,14 @@ input[type='submit']{
     }
     nav {
         display: block;
+        flex-direction: column;
     }
     .header ul {
         width: 100%;
+        display: none;
     }
     li {
-        margin-bottom: 10px;
+        margin: 10px 0;
     }
 }
 @media screen and (max-width:645px){
@@ -273,14 +260,9 @@ input[type='submit']{
         display: flex;
         flex-direction: column;
     }
-   #contact,
     .main,
-    .content {
+    .content,
+    #contact{
        padding:10px;
    }
-   textarea {
-       width: 100%;
-   }
 }
-
-
