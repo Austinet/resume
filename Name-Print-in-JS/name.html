@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udhe Austine Ogaga</title>
+    <style>
+        body {
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            color: darkcyan;
+        }
+        #btn {
+            padding: 1rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background: linear-gradient(90deg, darkcyan, cyan);
+            color: #fff;
+            font-size: 20px;
+        }
+        #output {
+            width: 400px;
+            height: 200px;
+            margin: 30px auto;
+            border: 2px solid darkcyan;
+        }
+        p {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME, PLEASE CLICK THE BUTTON BELOW TO VIEW MY NAME</h1>
+    <button id="btn">CLICK ME</button>
+     <div id="output">
+
+     </div>
+    <script>
+        let name = `Udhe Austine Ogaga`
+        let output =  document.getElementById('output');
+        let btn = document.getElementById('btn');
+        btn.addEventListener('click', function(){
+          alert("My Name Is " +name);
+          output.innerHTML = ` <p>Hi, My Name Is ${name} </p>`; 
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+:root{
+    --colora:#fff;
+    --colorb:#e6e6e6;
+    --colorc:#555555;
+    --shadow:rgba(0,0,0,.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+   /* header section */
+.header {
+    padding: 15px 25px;
+    background: var(--colorc);
+    border-bottom: 2px solid grey;
+}
+nav,
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul {
+    width: 40%;
+}
+h1 {
+    font-size: 1.7rem;
+}
+a {
+    text-decoration: none;
+    color: var(--colora);
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.header a:hover {
+    border-bottom: 2px solid white;
+}
+.header h1 a {
+    font-size: 1.5rem;
+}
+.header i {
+    font-size: 25px;
+    color: var(--colora);
+    display: none !important;
+}
+  /* about section */
+#about {
+    display: flex;
+    padding: 10px;
+}
+.content {
+    width: 45%;
+    align-self: center;
+    padding: 20px ;
+}
+.logo {
+    width: 150px;
+}
+.btn {
+    background: var(--colorc);
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 20px 0 10px;
+    padding: 0.8rem 1.3rem;
+    display: inline-block;
+    font-weight: 500;
+}
+.btn:hover {
+    background: var(--colora);
+    color: #444;
+}
+.profile {
+    width: 50%;
+    box-shadow: 0 0 7px var(--shadow);
+    border-radius: 25px;
+    margin: auto;
+}
+ .top {
+    background: #eee;
+    padding: 1rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+ }
+ .center img {
+     width: 300px;
+     border-radius: 100%;
+     box-shadow: 0 0 7px var(--shadow);
+     display: block;
+     margin: 10px auto; 
+ }
+ .bottom {
+     padding: 1rem;
+     background: #444;
+     text-align: center;
+     border-bottom-left-radius: 25px;
+     border-bottom-right-radius: 25px;
+ }
+.bottom i{
+  margin: 0 10px;
+}
+.bottom h3 {
+    color: var(--colorb);
+    margin-top: 0;
+}
+  /* skillset */
+#skillset {
+     margin: 50px 0;
+     padding:0 45px;
+} 
+.svg {
+    height: 8.5rem;
+}
+#skillset h2{
+    text-align: center;
+}
+#skillset ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+ /* education and hobbies section */
+ .main {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 0 40px;
+ }
+ .activities,
+ .hobbies,
+ .education, 
+ .work {
+    border-left: 5px solid #333;
+    padding: 0 10px; 
+  }
+h2,
+h1,
+h3 {
+    margin: 10px 0;
+    color: #222;
+}
+ul {
+      font-size: 1.16rem;  
+      list-style-type: none;
+}
+p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+#hng {
+    color: rgba(0, 0, 255, 0.685);
+}
+ /* contact section */
+#contact {
+    padding: 30px 40px;
+}
+label {
+    display: block;
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+ textarea {
+     width: 450px;
+     height: 250px;
+     padding: 1rem;
+     font-size: 1.2rem;
+     display: block;
+     resize: none;
+ }
+input {
+     padding: 1rem;
+    width: 260px;
+    font-size: 1.2rem;
+}
+input[type='submit']{
+    color: var(--colora);
+    width: 150px;
+}
+::placeholder {
+    font-size: 1.2rem;
+}
+   /* footer section */
+.footer {
+    text-align: center;
+    padding: 8px;
+    background: var(--colorc);
+    color: var(--colora);
+}
+.socials i {
+    margin: 10px 10px 5px;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
+}
+.footer i {
+    border: 2px solid var(--colora);
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+.footer p {
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:850px) {
+    .header i {
+        display: inline-block !important;
+    }
+    #list{
+        display: none;
+    }
+    #skillset ul{
+        grid-template-columns: auto auto;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+       
+    }
+    #about {
+        position: relative;
+        top:65px;
+        clear: both;
+    }
+    #skillset{
+        position: relative;
+        top: 25px;
+    }
+    nav {
+        display: block;
+    }
+    .header ul {
+        width: 100%;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:645px){
+    html {
+        font-size: 14px;
+    }
+    #about {
+        flex-direction: column;
+        width: 100%;
+    }
+    .btn {
+        margin-top: 10px;
+    }
+    .profile,
+    .content,
+    .center img{
+        width: 95%;
+    }
+
+    #skillset ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+   #contact,
+    .main,
+    .content {
+       padding:10px;
+   }
+   textarea {
+       width: 100%;
+   }
+}
+
+
