@@ -13,7 +13,9 @@
     font-weight: normal;
     line-height: 25px;
 }
-
+html { 
+     scroll-behavior:smooth;
+     }
    /* header section */
 .header {
     padding: 15px 25px;
@@ -35,6 +37,13 @@ nav,
 h1 {
     font-size: 1.7rem;
 }
+#austinet {
+    background: var(--colora);
+    border-radius: 100%;
+    padding: 5px 10px;
+    color: var(--colorc);
+    font-weight: 700;
+      }
 a {
     text-decoration: none;
     color: var(--colora);
@@ -208,6 +217,7 @@ p {
         justify-content: space-between;
         align-items: flex-start;
         position: fixed;
+        padding: 20px;
         width: 100%;
         z-index: 2;
        
