@@ -37,7 +37,8 @@ Users should be able to:
 
 - Solution URL: [Solution URL here](https://github.com/Austinet/resume.git)
 - Live Site URL: [Live site](https://Austinet.github.io/resume/)
-- Link to name print in JavaScript Repo [Name Print](https://github.com/Austinet/resume/Name-Print-In-Js/name.git)
+- Link to name print in JavaScript Repo [Name Print](https://github.com/Austinet/resume/Name-Print-in-Js/name.git)
+
 - Live Site URL: [Live site](https://Austinet.github.io/resume/Name-Print-In-Js/name/)
 ## My process
 
