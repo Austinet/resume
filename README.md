@@ -27,18 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/largescreen.JPG)
-![](images/mediumscreen.JPG)
-![](images/smallscreen.JPG)
-![](images/extrsmall.JPG)
+![Large Screen](images/largescreen.JPG)
+![Medium Screen](images/mediumscreen.JPG)
+![Small Screen](images/smallscreen.JPG)
+![Extra Small Screen](images/extrsmall.JPG)
 
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/Austinet/resume.git)
-- Live Site URL: [Live site](https://Austinet.github.io/resume/)
+- Solution Repo URL: [Solution Repo URL here](https://github.com/Austinet/resume.git)
+- Solution Live Site URL: [Live site URL](https://Austinet.github.io/resume/)
 - Link to Name Printer in JavaScript Repo [Name Print Repo](https://github.com/Austinet/resume/blob/00a003cae027ffbdd7fae97b9964d7b2dec80a10/Name-In-JS/index.html)
-
 - Name Printer Live Site URL: [Name Print Live](https://Austinet.github.io/resume/Name-In-JS/)
 ## My process
 
