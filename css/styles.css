@@ -206,7 +206,7 @@ p {
     .header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         position: fixed;
         width: 100%;
         z-index: 2;
