@@ -39,7 +39,7 @@ Users should be able to:
 - Live Site URL: [Live site](https://Austinet.github.io/resume/)
 - Link to Name Printer in JavaScript Repo [Name Print](https://github.com/Austinet/resume/blob/00a003cae027ffbdd7fae97b9964d7b2dec80a10/Name-In-JS/index.html)
 
-- Live Site URL: [Live site](https://Austinet.github.io/resume/Name-Print-In-Js/)
+- Live Site URL: [Live site](https://Austinet.github.io/resume/Name-In-JS/)
 ## My process
 
 ### Built with
